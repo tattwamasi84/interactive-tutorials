@@ -1,0 +1,17 @@
+/*Create all the the primitives with different values. Concatenate them into a 
+ * string and print it to the screen so it will print: H3110 w0r1d 2.0 true*/
+public class ConcatDiffNums {
+
+	public static void main(String[] args) {
+		int i = 3110;
+		int j = 0;
+		int k = 1;
+		float f = (float)2.0;
+		boolean b = true;
+		String TotalNum = "H"+i+"w"+j+"r"+k+"d"+""+f+b;
+		System.out.println(TotalNum);
+		
+
+	}
+
+}
